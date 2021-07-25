@@ -1,0 +1,24 @@
+/* logo */
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  color: var(--accent-color);
+
+  &--dark {
+    color: var(--black-color);
+  }
+
+  &--light {
+    color: var(--white-color);
+  }
+
+  &--margin--horizontal {
+    margin-right: 93px;
+  }
+
+  &--margin--vertical {
+    display: block;
+    margin-bottom: 20px;
+  }
+}
