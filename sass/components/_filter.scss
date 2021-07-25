@@ -1,8 +1,7 @@
 /* filter */
 
 .filter {
-  display: flex;
-  justify-content: center;
+  @extend %centered-flex-box;
   margin-bottom: 50px;
 }
 

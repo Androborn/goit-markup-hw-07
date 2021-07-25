@@ -9,8 +9,7 @@
 }
 
 .nav {
-  display: flex;
-  align-items: center;
+  @extend %centered-flex-box;
 }
 
 .nav__list {

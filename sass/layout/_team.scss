@@ -1,7 +1,6 @@
 /* team section */
 .team-section {
-  padding-top: var(--section-vertical-padding);
-  padding-bottom: var(--section-vertical-padding);
+  @include section-vert-padding();
   background-color: var(--primary-bg-color);
 }
 

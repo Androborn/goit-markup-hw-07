@@ -1,6 +1,6 @@
 /* profile section */
 .profile-section {
-  padding-bottom: var(--section-vertical-padding);
+  @include section-vert-padding();
   background-color: var(--white-color);
 }
 

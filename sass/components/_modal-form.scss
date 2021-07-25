@@ -1,11 +1,9 @@
 /* modal form */
 .modal-close-btn {
+  @extend %centered-flex-box;
   position: absolute;
   top: 8px;
   right: 8px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin-left: auto;
   width: 30px;
   height: 30px;
@@ -107,9 +105,7 @@
 }
 
 .checkbox__label {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %centered-flex-box;
   text-align: center;
   line-height: 1.71;
   margin-bottom: 30px;

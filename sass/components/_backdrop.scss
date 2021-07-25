@@ -1,8 +1,6 @@
 /* backdrop */
 .backdrop {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %centered-flex-box;
   position: fixed;
   top: 0;
   left: 0;

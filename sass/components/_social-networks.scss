@@ -1,7 +1,6 @@
 /* social networks */
 .socials__list {
-  display: flex;
-  justify-content: center;
+  @extend %centered-flex-box;
 }
 
 .socials__item {

@@ -1,7 +1,6 @@
 /* portfolio section */
 .portfolio-section {
-  padding-top: var(--section-vertical-padding);
-  padding-bottom: var(--section-vertical-padding);
+  @include section-vert-padding();
   background-color: var(--white-color);
 }
 
@@ -28,8 +27,7 @@
 }
 
 .portfolio-section__overlay {
-  display: flex;
-  align-items: center;
+  @extend %centered-flex-box;
   padding-left: 24px;
   padding-right: 24px;
   position: absolute;

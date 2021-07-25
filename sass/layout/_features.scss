@@ -1,7 +1,6 @@
 /* features section */
 .features-section {
-  padding-top: var(--section-vertical-padding);
-  padding-bottom: var(--section-vertical-padding);
+  @include section-vert-padding();
   background-color: var(--white-color);
 }
 
@@ -18,9 +17,7 @@
 }
 
 .features-section__wraper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @extend %centered-flex-box;
   height: 120px;
   margin-bottom: var(--set-gap);
   background: var(--primary-bg-color);
