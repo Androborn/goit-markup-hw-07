@@ -1,12 +1,12 @@
 /* elements set */
-.set-wrapper {
+.set {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: calc(-1 * var(--set-gap));
   margin-right: calc(-1 * var(--set-gap));
+}
 
-  &__element {
-    margin-bottom: var(--set-gap);
-    margin-right: var(--set-gap);
-  }
+.set__element {
+  margin-bottom: var(--set-gap);
+  margin-right: var(--set-gap);
 }

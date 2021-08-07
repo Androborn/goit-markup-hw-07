@@ -20,14 +20,11 @@
     <title>Студия</title>
   </head>
   <body>
-    <header class="header-section">
-      <div class="container header-section__container">
+    <header class="header">
+      <div class="container container--flex">
         <nav class="nav">
-          <a
-            class="logo logo--margin--horizontal link"
-            href="./index.html"
-            lang="en"
-            >Web<span class="logo__span logo--dark">Studio</span></a
+          <a class="logo header__logo link" href="./index.html" lang="en"
+            >Web<span class="logo__span logo__span--dark">Studio</span></a
           >
           <ul class="nav__list list">
             <li class="nav__item">
@@ -65,9 +62,9 @@
     </header>
     <main>
       <!--HERO-->
-      <section class="hero-section overlay">
+      <section class="hero overlay">
         <div class="container">
-          <h1 class="hero-section__title">
+          <h1 class="page-title hero__page-title">
             Эффективные решения для вашего бизнеса
           </h1>
           <button class="btn" type="button" data-modal-open>
@@ -76,55 +73,83 @@
         </div>
       </section>
       <!--FEATURES-->
-      <section class="features-section">
+      <section class="features">
         <div class="container">
           <!--h2 for this section is hidden via css-->
-          <h2 class="features-section__title visually-hidden">Особенности</h2>
-          <ul class="features-section__list list">
-            <li class="features-section__item">
-              <div class="features-section__wraper">
-                <svg class="features-section__icon" width="70" height="70">
+          <h2 class="section-title visually-hidden">Особенности</h2>
+          <ul class="features__list set list">
+            <li class="features__item set__element">
+              <div class="features__thumb">
+                <svg class="features__icon" width="70" height="70">
                   <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="features-section__subtitle">Внимание к деталям</h3>
-              <p class="features-section__description">
+              <h3 class="sub-section-title features__sub-section-title">
+                Внимание к деталям
+              </h3>
+              <p
+                class="
+                  sub-section-description
+                  features__sub-section-description
+                "
+              >
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li class="features-section__item">
-              <div class="features-section__wraper">
-                <svg class="features-section__icon" width="70" height="70">
+            <li class="features__item set__element">
+              <div class="features__thumb">
+                <svg class="features__icon" width="70" height="70">
                   <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="features-section__subtitle">Пунктуальность</h3>
-              <p class="features-section__description">
+              <h3 class="sub-section-title features__sub-section-title">
+                Пунктуальность
+              </h3>
+              <p
+                class="
+                  sub-section-description
+                  features__sub-section-description
+                "
+              >
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li class="features-section__item">
-              <div class="features-section__wraper">
-                <svg class="features-section__icon" width="70" height="70">
+            <li class="features__item set__element">
+              <div class="features__thumb">
+                <svg class="features__icon" width="70" height="70">
                   <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3 class="features-section__subtitle">Планирование</h3>
-              <p class="features-section__description">
+              <h3 class="sub-section-title features__sub-section-title">
+                Планирование
+              </h3>
+              <p
+                class="
+                  sub-section-description
+                  features__sub-section-description
+                "
+              >
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li class="features-section__item">
-              <div class="features-section__wraper">
-                <svg class="features-section__icon" width="70" height="70">
+            <li class="features__item set__element">
+              <div class="features__thumb">
+                <svg class="features__icon" width="70" height="70">
                   <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="features-section__subtitle">Современные технологии</h3>
-              <p class="features-section__description">
+              <h3 class="sub-section-title features__sub-section-title">
+                Современные технологии
+              </h3>
+              <p
+                class="
+                  sub-section-description
+                  features__sub-section-description
+                "
+              >
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
               </p>
@@ -133,51 +158,75 @@
         </div>
       </section>
       <!--PROFILE-->
-      <section class="profile-section">
+      <section class="profile">
         <div class="container">
-          <h2 class="profile-section__title section-title">
+          <h2 class="section-title profile__section-title">
             Чем мы занимаемся
           </h2>
-          <ul class="profile-section__list list">
-            <li class="profile-section__item">
+          <ul class="profile__list set list">
+            <li class="profile__item set__element">
               <img
-                class="profile-section__image"
+                class="profile__image"
                 src="./images/studio/what_we_do/img_1.jpg"
                 alt="программист набирает код"
                 width="370"
                 height="290"
               />
-              <p class="profile-section__description">Десктопные приложения</p>
+              <h3
+                class="
+                  sub-section-title
+                  profile__sub-section-title
+                  sub-section-title--light
+                "
+              >
+                Десктопные приложения
+              </h3>
             </li>
-            <li class="profile-section__item">
+            <li class="profile__item set__element">
               <img
-                class="profile-section__image"
+                class="profile__image"
                 src="./images/studio/what_we_do/img_2.jpg"
                 alt="дизайнер выбирает макет мобильной страницы"
                 width="370"
                 height="290"
               />
-              <p class="profile-section__description">Мобильные приложения</p>
+              <h3
+                class="
+                  sub-section-title
+                  profile__sub-section-title
+                  sub-section-title--light
+                "
+              >
+                Мобильные приложения
+              </h3>
             </li>
-            <li class="profile-section__item">
+            <li class="profile__item set__element">
               <img
-                class="profile-section__image"
+                class="profile__image"
                 src="./images/studio/what_we_do/img_3.jpg"
                 alt="дизайнер выбирает цвет из палитры"
                 width="370"
                 height="290"
               />
-              <p class="profile-section__description">Дизайнерские решения</p>
+              <h3
+                class="
+                  sub-section-title
+                  profile__sub-section-title
+                  sub-section-title--light
+                "
+              >
+                Дизайнерские решения
+              </h3>
             </li>
           </ul>
         </div>
       </section>
       <!--TEAM-->
-      <section class="team-section">
+      <section class="team">
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
-          <ul class="team__list set-wrapper list">
-            <li class="team__item set-wrapper__element">
+          <ul class="set team__set list">
+            <li class="team__item set__element">
               <div class="team__thumb">
                 <img
                   src="./images/studio/team/ihor.jpg"
@@ -192,7 +241,7 @@
                 <ul class="socials__list list">
                   <li class="socials__item">
                     <a
-                      class="socials__link"
+                      class="socials__link socials__link--dark"
                       aria-label="Ссылка на Instagram"
                       href="#"
                       target="_blank"
@@ -206,7 +255,7 @@
                   </li>
                   <li class="socials__item">
                     <a
-                      class="socials__link"
+                      class="socials__link socials__link--dark"
                       aria-label="Ссылка на Twitter"
                       href="#"
                       target="_blank"
@@ -220,7 +269,7 @@
                   </li>
                   <li class="socials__item">
                     <a
-                      class="socials__link"
+                      class="socials__link socials__link--dark"
                       aria-label="Ссылка на Facebook"
                       href="#"
                       target="_blank"
@@ -234,7 +283,7 @@
                   </li>
                   <li class="socials__item">
                     <a
-                      class="socials__link"
+                      class="socials__link socials__link--dark"
                       aria-label="Ссылка на LinkedIn"
                       href="#"
                       target="_blank"
@@ -249,7 +298,7 @@
                 </ul>
               </div>
             </li>
-            <li class="team__item set-wrapper__element">
+            <li class="team__item set__element">
               <div class="team__thumb">
                 <img
                   src="./images/studio/team/olga.jpg"
@@ -264,7 +313,7 @@
                 <ul class="socials__list list">
                   <li class="socials__item">
                     <a
-                      class="socials__link"
+                      class="socials__link socials__link--dark"
                       aria-label="Ссылка на Instagram"
                       href="#"
                       target="_blank"
@@ -278,7 +327,7 @@
                   </li>
                   <li class="socials__item">
                     <a
-                      class="socials__link"
+                      class="socials__link socials__link--dark"
                       aria-label="Ссылка на Twitter"
                       href="#"
                       target="_blank"
@@ -292,7 +341,7 @@
                   </li>
                   <li class="socials__item">
                     <a
-                      class="socials__link"
+                      class="socials__link socials__link--dark"
                       aria-label="Ссылка на Facebook"
                       href="#"
                       target="_blank"
@@ -306,7 +355,7 @@
                   </li>
                   <li class="socials__item">
                     <a
-                      class="socials__link"
+                      class="socials__link socials__link--dark"
                       aria-label="Ссылка на LinkedIn"
                       href="#"
                       target="_blank"
@@ -321,7 +370,7 @@
                 </ul>
               </div>
             </li>
-            <li class="team__item set-wrapper__element">
+            <li class="team__item set__element">
               <div class="team__thumb">
                 <img
                   src="./images/studio/team/nikolai.jpg"
@@ -336,7 +385,7 @@
                 <ul class="socials__list list">
                   <li class="socials__item">
                     <a
-                      class="socials__link"
+                      class="socials__link socials__link--dark"
                       aria-label="Ссылка на Instagram"
                       href="#"
                       target="_blank"
@@ -350,7 +399,7 @@
                   </li>
                   <li class="socials__item">
                     <a
-                      class="socials__link"
+                      class="socials__link socials__link--dark"
                       aria-label="Ссылка на Twitter"
                       href="#"
                       target="_blank"
@@ -364,7 +413,7 @@
                   </li>
                   <li class="socials__item">
                     <a
-                      class="socials__link"
+                      class="socials__link socials__link--dark"
                       aria-label="Ссылка на Facebook"
                       href="#"
                       target="_blank"
@@ -378,7 +427,7 @@
                   </li>
                   <li class="socials__item">
                     <a
-                      class="socials__link"
+                      class="socials__link socials__link--dark"
                       aria-label="Ссылка на LinkedIn"
                       href="#"
                       target="_blank"
@@ -393,7 +442,7 @@
                 </ul>
               </div>
             </li>
-            <li class="team__item set-wrapper__element">
+            <li class="team__item set__element">
               <div class="team__thumb">
                 <img
                   src="./images/studio/team/mykhail.jpg"
@@ -408,7 +457,7 @@
                 <ul class="socials__list list">
                   <li class="socials__item">
                     <a
-                      class="socials__link"
+                      class="socials__link socials__link--dark"
                       aria-label="Ссылка на Instagram"
                       href="#"
                       target="_blank"
@@ -422,7 +471,7 @@
                   </li>
                   <li class="socials__item">
                     <a
-                      class="socials__link"
+                      class="socials__link socials__link--dark"
                       aria-label="Ссылка на Twitter"
                       href="#"
                       target="_blank"
@@ -436,7 +485,7 @@
                   </li>
                   <li class="socials__item">
                     <a
-                      class="socials__link"
+                      class="socials__link socials__link--dark"
                       aria-label="Ссылка на Facebook"
                       href="#"
                       target="_blank"
@@ -450,7 +499,7 @@
                   </li>
                   <li class="socials__item">
                     <a
-                      class="socials__link"
+                      class="socials__link socials__link--dark"
                       aria-label="Ссылка на LinkedIn"
                       href="#"
                       target="_blank"
@@ -469,92 +518,92 @@
         </div>
       </section>
       <!--CLIENTS-->
-      <section class="clients-section">
+      <section class="clients">
         <div class="container">
-          <h2 class="clients-section__title section-title">
+          <h2 class="section-title clients__section-title">
             Постоянные клиенты
           </h2>
-          <ul class="clients-section__list set-wrapper list">
-            <li class="clients-section__item set-wrapper__element">
+          <ul class="set clients__set list">
+            <li class="clients__item set__element">
               <a
-                class="clients-section__link"
+                class="clients__link"
                 aria-label="Ссылка на страницу клиента"
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <span class="visually-hidden">Переход на страницу слиента</span>
-                <svg class="clients-section__icon" width="106" height="60">
+                <svg class="clients__icon" width="106" height="60">
                   <use href="./images/icons.svg#icon-client_1"></use>
                 </svg>
               </a>
             </li>
-            <li class="clients-section__item set-wrapper__element">
+            <li class="clients__item set__element">
               <a
-                class="clients-section__link"
+                class="clients__link"
                 aria-label="Ссылка на страницу клиента"
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <span class="visually-hidden">Переход на страницу слиента</span>
-                <svg class="clients-section__icon" width="106" height="60">
+                <svg class="clients__icon" width="106" height="60">
                   <use href="./images/icons.svg#icon-client_2"></use>
                 </svg>
               </a>
             </li>
-            <li class="clients-section__item set-wrapper__element">
+            <li class="clients__item set__element">
               <a
-                class="clients-section__link"
+                class="clients__link"
                 aria-label="Ссылка на страницу клиента"
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <span class="visually-hidden">Переход на страницу слиента</span>
-                <svg class="clients-section__icon" width="106" height="60">
+                <svg class="clients__icon" width="106" height="60">
                   <use href="./images/icons.svg#icon-client_3"></use>
                 </svg>
               </a>
             </li>
-            <li class="clients-section__item set-wrapper__element">
+            <li class="clients__item set__element">
               <a
-                class="clients-section__link"
+                class="clients__link"
                 aria-label="Ссылка на страницу клиента"
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <span class="visually-hidden">Переход на страницу слиента</span>
-                <svg class="clients-section__icon" width="106" height="60">
+                <svg class="clients__icon" width="106" height="60">
                   <use href="./images/icons.svg#icon-client_4"></use>
                 </svg>
               </a>
             </li>
-            <li class="clients-section__item set-wrapper__element">
+            <li class="clients__item set__element">
               <a
-                class="clients-section__link"
+                class="clients__link"
                 aria-label="Ссылка на страницу клиента"
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <span class="visually-hidden">Переход на страницу слиента</span>
-                <svg class="clients-section__icon" width="106" height="60">
+                <svg class="clients__icon" width="106" height="60">
                   <use href="./images/icons.svg#icon-client_5"></use>
                 </svg>
               </a>
             </li>
-            <li class="clients-section__item set-wrapper__element">
+            <li class="clients__item set__element">
               <a
-                class="clients-section__link"
+                class="clients__link"
                 aria-label="Ссылка на страницу клиента"
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <span class="visually-hidden">Переход на страницу слиента</span>
-                <svg class="clients-section__icon" width="106" height="60">
+                <svg class="clients__icon" width="106" height="60">
                   <use href="./images/icons.svg#icon-client_6"></use>
                 </svg>
               </a>
@@ -563,15 +612,14 @@
         </div>
       </section>
     </main>
-    <footer class="footer-section">
-      <div class="container footer-section__container">
-        <h2 class="footer-section__title visually-hidden">Подвал</h2>
-        <div class="footer-section__nav">
-          <a
-            class="logo logo--margin--vertical link"
-            href="./index.html"
-            lang="en"
-            >Web<span class="logo__span logo--light">Studio</span>
+    <footer class="footer">
+      <div class="container container--flex">
+        <h2 class="section-title footer__section-title visually-hidden">
+          Подвал
+        </h2>
+        <div class="footer__nav">
+          <a class="logo footer__logo link" href="./index.html" lang="en"
+            >Web<span class="logo__span logo__span--light">Studio</span>
           </a>
           <address class="address">
             <ul class="address__list list">
@@ -602,11 +650,19 @@
           </address>
         </div>
         <div class="join-us">
-          <h3 class="join-us__title">Присоединяйтесь</h3>
+          <h3
+            class="
+              sub-section-title
+              join-us__sub-section-title
+              sub-section-title--light
+            "
+          >
+            Присоединяйтесь
+          </h3>
           <ul class="socials__list list">
             <li class="socials__item">
               <a
-                class="socials__link join-us__socials"
+                class="socials__link socials__link--light"
                 aria-label="Ссылка на Instagram"
                 href="#"
                 target="_blank"
@@ -620,7 +676,7 @@
             </li>
             <li class="socials__item">
               <a
-                class="socials__link join-us__socials"
+                class="socials__link socials__link--light"
                 aria-label="Ссылка на Twitter"
                 href="#"
                 target="_blank"
@@ -634,7 +690,7 @@
             </li>
             <li class="socials__item">
               <a
-                class="socials__link join-us__socials"
+                class="socials__link socials__link--light"
                 aria-label="Ссылка на Facebook"
                 href="#"
                 target="_blank"
@@ -648,7 +704,7 @@
             </li>
             <li class="socials__item">
               <a
-                class="socials__link join-us__socials"
+                class="socials__link socials__link--light"
                 aria-label="Ссылка на LinkedIn"
                 href="#"
                 target="_blank"
@@ -663,7 +719,15 @@
           </ul>
         </div>
         <div class="subscribe">
-          <h3 class="subscribe__title">Подпишитесь на рассылку</h3>
+          <h3
+            class="
+              sub-section-title
+              subscribe__sub-section-title
+              sub-section-title--light
+            "
+          >
+            Подпишитесь на рассылку
+          </h3>
           <form class="subscribe__form" action="#">
             <label class="subscribe__label">
               <input
@@ -778,7 +842,9 @@
               type="checkbox"
               required
             />
-            <label class="checkbox__label" for="accept-policy"
+            <label
+              class="sub-section-description checkbox__sub-section-description"
+              for="accept-policy"
               >Соглашаюсь с рассылкой и принимаю&nbsp;<a
                 class="checkbox__link"
                 href="#"

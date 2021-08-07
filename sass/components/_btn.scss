@@ -21,9 +21,9 @@
   &--focused:focus {
     background-color: #188ce8;
   }
+}
 
-  &__icon {
-    fill: currentColor;
-    margin-left: 10px;
-  }
+.btn__icon {
+  fill: currentColor;
+  margin-left: 10px;
 }

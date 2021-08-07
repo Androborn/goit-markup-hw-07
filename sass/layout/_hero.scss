@@ -1,5 +1,5 @@
 /* hero section */
-.hero-section {
+.hero {
   @include section-vert-padding(200px, 200px);
   background-color: var(--hero-bg-color);
 }
@@ -17,7 +17,7 @@
   background-position: center;
 }
 
-.hero-section__title {
+.hero__page-title {
   max-width: 696px;
   margin-left: auto;
   margin-right: auto;

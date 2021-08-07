@@ -104,10 +104,9 @@
   }
 }
 
-.checkbox__label {
+.checkbox__sub-section-description {
   @extend %centered-flex-box;
   text-align: center;
-  line-height: 1.71;
   margin-bottom: 30px;
 
   &::before {

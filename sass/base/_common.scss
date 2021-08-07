@@ -28,6 +28,10 @@ body {
   letter-spacing: 0.03em;
   line-height: 1.19;
   color: var(--primary-text-color);
+
+  &.modal-open {
+    overflow: hidden;
+  }
 }
 
 .link {
